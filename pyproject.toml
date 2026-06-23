@@ -5,7 +5,7 @@ description = "Deep research agent using LangGraph, DeepAgents, and local/cloud 
 requires-python = ">=3.11"
 dependencies = [
     "langchain-openai>=1.2.2",   # Used for local LLM (LM Studio / Ollama) and OpenAI
-    "langchain-anthropic>=1.4.4",
+    "langchain-anthropic>=1.4.7",
     "langchain_tavily>=0.2.18",
     "pydantic>=2.13.4",
     "rich>=15.0.0",
