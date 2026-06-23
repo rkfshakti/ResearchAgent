@@ -46,7 +46,7 @@ research_sub_agent = {
 # Local LLM via LM Studio (OpenAI-compatible endpoint)
 # Running at https://192.168.68.110:1234
 model = ChatOpenAI(
-    model="local-model",          # Replace with your loaded model name in LM Studio
+    model="Qwen3.5-4B",          # Replace with your loaded model name in LM Studio
     base_url="https://192.168.68.110:1234/v1",
     api_key="lm-studio",          # LM Studio accepts any non-empty string
     temperature=0.0,
