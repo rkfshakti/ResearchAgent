@@ -1,4 +1,4 @@
-# � Deep Research Agent
+# Deep Research Agent
 
 An intelligent AI-powered research agent that autonomously conducts deep web research, synthesizes findings, and generates comprehensive reports. Built with LangGraph, LangChain, and the DeepAgents framework.
 
