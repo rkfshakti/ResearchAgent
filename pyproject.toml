@@ -16,7 +16,8 @@ dependencies = [
     "markdownify>=1.2.2",
     "deepagents>=0.6.8",
     "python-dotenv>=1.2.2",
-    "langgraph-cli[inmem]>=0.4.27",
+    "langgraph-cli[inmem]>=0.4.30",
+    "langgraph-api>=0.10.0",
 ]
 
 [tool.uv]
