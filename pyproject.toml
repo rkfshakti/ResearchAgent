@@ -32,7 +32,7 @@ dev = [
     "ruff>=0.15.16",
 ]
 cloud-llm = [
-    "langchain-google-genai>=4.2.4",  # Gemini models
+    "langchain-google-genai>=4.4.3",  # Gemini models
 ]
 
 [build-system]
