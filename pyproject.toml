@@ -2,7 +2,7 @@
 name = "deep-research-agent"
 version = "0.1.0"
 description = "Deep research agent using LangGraph, DeepAgents, and local/cloud LLMs"
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 dependencies = [
     "langchain-openai>=1.2.2",   # Used for local LLM (LM Studio / Ollama) and OpenAI
     "langchain-anthropic>=1.4.4",
