@@ -6,12 +6,12 @@ for conducting web research with strategic thinking and context management.
 
 from datetime import datetime
 
-from langchain_openai import ChatOpenAI
 from deepagents import create_deep_agent
+from langchain_openai import ChatOpenAI
 
 from research_agent.prompts import (
-    RESEARCHER_INSTRUCTIONS,
     RESEARCH_WORKFLOW_INSTRUCTIONS,
+    RESEARCHER_INSTRUCTIONS,
     SUBAGENT_DELEGATION_INSTRUCTIONS,
 )
 from research_agent.tools import tavily_search, think_tool

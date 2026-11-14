@@ -11,12 +11,12 @@ dependencies = [
     "rich>=15.0.0",
     "jupyter>=1.1.1",
     "ipykernel>=7.2.0",
-    "tavily-python>=0.7.25",
+    "tavily-python>=0.8.5",
     "httpx>=0.28.1",
-    "markdownify>=1.2.2",
-    "deepagents>=0.6.8",
+    "markdownify>=1.2.3",
+    "deepagents>=0.7.35",
     "python-dotenv>=1.2.2",
-    "langgraph-cli[inmem]>=0.4.30",
+    "langgraph-cli[inmem]>=0.4.42",
     "langgraph-api>=0.10.0",
 ]
 
@@ -32,7 +32,7 @@ dev = [
     "ruff>=0.15.16",
 ]
 cloud-llm = [
-    "langchain-google-genai>=4.2.4",  # Gemini models
+    "langchain-google-genai>=4.4.3",  # Gemini models
 ]
 
 [build-system]
